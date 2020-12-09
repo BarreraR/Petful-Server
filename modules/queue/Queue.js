@@ -40,7 +40,7 @@ class Queue {
       this.last = null;
     }
 
-    return node.value;
+    return node.next.value;
   }
 
   show() {
